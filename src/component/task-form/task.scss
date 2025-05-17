@@ -1,0 +1,22 @@
+.task-container{
+    display:flex;
+    justify-content:space-between;
+    max-width:500px;
+    border:1px solid #ccc;
+    padding:20px;
+    margin:10px auto;
+    max-width:400px;
+    &__text{
+        font-size:16px;
+        margin-bottom:5px;
+        margin-left:5px;
+        &--checked{
+            text-decoration:line-through;
+            color:grey;
+        }
+    }
+    &__icon{
+        color:$color-primery;
+    }
+    
+    }
